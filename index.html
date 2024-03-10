@@ -154,6 +154,24 @@
         isPrimeNum(num);
     </script>
 
+       let num = prompt('Please enter number');
+        let isPrimeNum = (number) => {
+            if (number < 2) {
+                return false;
+
+            }
+
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i === 0) {
+                        return false;
+
+                }
+            }
+                 return true;
+        }
+        isPrimeNum(num);
+    </script>
+
 
 </body>
 
