@@ -8,6 +8,17 @@
 // // //     console.log("Good Morning");
 // // // }
 
+
+// extra question
+// // // //.1
+// // // let a = 10; b = 10; c = 1;
+// // // if (a == b == c) {
+// // //     // 10==10 => true means 1 then 1==1 this is true.
+// // //     console.log("Hello");
+// // // } else {
+// // //     console.log("Good Morning");
+// // // }
+
 // // // //.2 pre increment and predecrement
 // // // let d = 5;
 // // // // console.log(++5);
