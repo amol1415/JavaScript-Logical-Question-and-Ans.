@@ -12,6 +12,21 @@
 // }
 // console.log(missNum);
 
+// extra example 
+// let ary1 = [1, 2, 3, 4, 5, 6,7,8,11];
+// let missNum = [];
+// let maxNum = Math.max(...ary1)
+// let minNum = Math.min(...ary1)
+// for (let i = minNum; i < maxNum; i++) {
+//     if (ary1.indexOf(i) < 0) {
+//         missNum.push(i);
+//     };
+// console.log(ary1.indexOf(i));
+// }
+// console.log(missNum);
+
+
+
 // //2. how to reverse string
 // let str = "Amol";
 // let reverseStr = "";
