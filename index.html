@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //.6 how to find occurance of letter into string.
+
+        // let string = prompt('please enter string');
+        // let letter = prompt('please enter letter');
+        // let strLength = string.length;
+        // let counter = 0;
+
+        // string = string.toLowerCase();
+        // letter = letter.toLowerCase();
+        // for (let i = 0; i < strLength; i++) {
+        //     // console.log(string[i]);
+        //     if (string[i] == letter) {
+        //         counter++;
+        //     }
+        // }
+        // console.log(`in ${string} occurance of ${letter}=${counter}`);
+    </script>
+
+    <script>
+        // how to find vowels from string or check vowels.
+
+        // let string = prompt('Enter a string');
+        // string = string.toLocaleLowerCase()
+        // if (string == 'a' || string == 'e' || string == 'i' || string == 'o' || string == 'u') {
+        //     console.log("string is vowels");
+        // } else {
+        //     console.log("string is not vowels");
+
+        // }
+        // let string = prompt('Enter a string');
+        // let vowels = ['a', 'e', 'i', 'o', 'u'];
+        // var count = 0;
+        // const countVowels = (str) => {
+        //     for (let letter of str) {
+        //         if (vowels.includes(letter)) {
+        //             count++;
+        //         }
+        //     }
+        //     return count;
+        // }
+        // console.log(countVowels(string.toLocaleLowerCase()));
+    </script>
+    <script>
+        // how to print table using js function.
+        // let number = prompt('enter a number')
+
+
+        // const table = (Number) => {
+        //     for (let i = 1; i <= 10; i++) {
+        //         var res = i * Number;
+        //         console.log(`${Number}*${i} = ${res}`);
+        //     }
+        // }
+        // table(number);
+
+    </script>
+    <!-- 
+    <script>
+        // how to find factorial of given number
+        const num = prompt('Please enter a number');
+        var fact = 1;
+        if (num < 0) {
+            console.log(`cant find factorial of ${num}`);
+        } else {
+            for (let i = 1; i <= num; i++) {
+                fact = fact * i;
+            }
+            console.log(fact);
+        }
+
+    </script> -->
+    <!-- <form onsubmit="handleSubmit(event)">
+        <label for="name">Name</label><br>
+        <input class="form-control" type="text" id="name" name="name" placeholder="Enter a name" required> <br>
+        <button class="btn btn-dark" type="submit">Submit</button>
+    </form> -->
+
+    <script>
+        // function handleSubmit(event) {
+        //     event.preventDefault(); // Prevents the form from submitting the traditional way
+
+        //     // Get the value from the input field
+        //     var nameValue = document.getElementById('name').value;
+
+        //     // Log the value to the console
+        //     console.log('Name entered:', nameValue);
+        // }
+    </script>
+
+
+    <!-- prime number  -->
+    <script>
+        // let num = prompt('Please enter number');
+        // let isPrimeNum = (number) => {
+        //     if (number < 2) {
+        //         return console.log(`${number} is not prime number`);
+        //     }
+        //     for (let i = 2; i <= Math.sqrt(number); i++) {
+        //         if (number % i === 0) {
+        //             return console.log(`${number} is not prime number`);
+
+        //         }
+        //     }
+        //     return console.log(`${number} is prime number`);
+
+        // }
+
+        // isPrimeNum(num);
+
+
+    </script>
+
+
+    <script>
+        // let number = prompt('please enter number');
+        // let isFactorial = (num) => {
+        //     let factorial = 1;
+        //     for (let i = 1; i <= num; i++) {
+        //         factorial = factorial * i;
+        //     }
+        //     console.log(factorial);
+        // }
+        // isFactorial(number);
+
+    </script>
+
+    <script>
+        let num = prompt('Please enter number');
+        let isPrimeNum = (number) => {
+            if (number < 2) {
+                return console.log(`${number} is not a prime number`);
+
+            }
+
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i === 0) {
+                    return console.log(`${number} is not a prime number`);
+
+                }
+            }
+            return console.log(`${number} is a prime number`);
+        }
+        isPrimeNum(num);
+    </script>
+
+
+</body>
+
+</html>
