@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -80,98 +80,91 @@
         }
 
     </script> -->
-    <!-- <form onsubmit="handleSubmit(event)">
+<!-- <form onsubmit="handleSubmit(event)">
         <label for="name">Name</label><br>
         <input class="form-control" type="text" id="name" name="name" placeholder="Enter a name" required> <br>
         <button class="btn btn-dark" type="submit">Submit</button>
     </form> -->
 
-    <script>
-        // function handleSubmit(event) {
-        //     event.preventDefault(); // Prevents the form from submitting the traditional way
+<script>
+    // function handleSubmit(event) {
+    //     event.preventDefault(); // Prevents the form from submitting the traditional way
 
-        //     // Get the value from the input field
-        //     var nameValue = document.getElementById('name').value;
+    //     // Get the value from the input field
+    //     var nameValue = document.getElementById('name').value;
 
-        //     // Log the value to the console
-        //     console.log('Name entered:', nameValue);
-        // }
-    </script>
-
-
-    <!-- prime number  -->
-    <script>
-        // let num = prompt('Please enter number');
-        // let isPrimeNum = (number) => {
-        //     if (number < 2) {
-        //         return console.log(`${number} is not prime number`);
-        //     }
-        //     for (let i = 2; i <= Math.sqrt(number); i++) {
-        //         if (number % i === 0) {
-        //             return console.log(`${number} is not prime number`);
-
-        //         }
-        //     }
-        //     return console.log(`${number} is prime number`);
-
-        // }
-
-        // isPrimeNum(num);
+    //     // Log the value to the console
+    //     console.log('Name entered:', nameValue);
+    // }
+</script>
 
 
-    </script>
+<!-- prime number  -->
+<script>
+    // let num = prompt('Please enter number');
+    // let isPrimeNum = (number) => {
+    //     if (number < 2) {
+    //         return console.log(`${number} is not prime number`);
+    //     }
+    //     for (let i = 2; i <= Math.sqrt(number); i++) {
+    //         if (number % i === 0) {
+    //             return console.log(`${number} is not prime number`);
+
+    //         }
+    //     }
+    //     return console.log(`${number} is prime number`);
+
+    // }
+
+    // isPrimeNum(num);
 
 
-    <script>
-        // let number = prompt('please enter number');
-        // let isFactorial = (num) => {
-        //     let factorial = 1;
-        //     for (let i = 1; i <= num; i++) {
-        //         factorial = factorial * i;
-        //     }
-        //     console.log(factorial);
-        // }
-        // isFactorial(number);
+</script>
 
-    </script>
 
-    <script>
-        let num = prompt('Please enter number');
-        let isPrimeNum = (number) => {
-            if (number < 2) {
+<script>
+    // let number = prompt('please enter number');
+    // let isFactorial = (num) => {
+    //     let factorial = 1;
+    //     for (let i = 1; i <= num; i++) {
+    //         factorial = factorial * i;
+    //     }
+    //     console.log(factorial);
+    // }
+    // isFactorial(number);
+
+</script>
+
+<script>
+    let num = prompt('Please enter number');
+    let isPrimeNum = (number) => {
+        if (number < 2) {
+            return console.log(`${number} is not a prime number`);
+
+        }
+
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i === 0) {
                 return console.log(`${number} is not a prime number`);
 
             }
-
-            for (let i = 2; i <= Math.sqrt(number); i++) {
-                if (number % i === 0) {
-                    return console.log(`${number} is not a prime number`);
-
-                }
-            }
-            return console.log(`${number} is a prime number`);
         }
-        isPrimeNum(num);
-    </script>
+        return console.log(`${number} is a prime number`);
+    }
+    isPrimeNum(num);
+</script>
 
-       let num = prompt('Please enter number');
-        let isPrimeNum = (number) => {
-            if (number < 2) {
-                return false;
 
-            }
-
-            for (let i = 2; i <= Math.sqrt(number); i++) {
-                if (number % i === 0) {
-                        return false;
-
-                }
-            }
-                 return true;
+<script>
+    //.star pattern
+    for (let i = 1; i <= 6; i++) {
+        for (let j = 1; j <= i; j++) {
+            document.write("*");
         }
-        isPrimeNum(num);
-    </script>
 
+    }
+    document.write("<br>");
+</script>
 
 </body>
 
